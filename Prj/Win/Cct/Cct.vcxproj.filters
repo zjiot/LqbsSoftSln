@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\sysarch">
+      <UniqueIdentifier>{2186d6c4-b9c7-4acf-a681-2507326b304d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sysarch">
+      <UniqueIdentifier>{41689d5f-74a2-4b3b-a02e-2ebe236e84de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Cct">
+      <UniqueIdentifier>{4eade08b-4fb8-4d4f-b7cf-229936356591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Cct">
+      <UniqueIdentifier>{827fc6dc-8c7a-4249-8ce6-e3276f24d52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Cct\CctAppAdapter">
+      <UniqueIdentifier>{9a4746cd-3eb1-4092-b21f-dae56a5af535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Cct\CctReader">
+      <UniqueIdentifier>{379bd20f-ef93-4ebd-9bde-2909e3e5edba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Cct\CctReader">
+      <UniqueIdentifier>{f74fcfaa-3cb2-4005-a11d-1e34dd082978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Cct\CctAppAdapter">
+      <UniqueIdentifier>{d109fbe7-61de-4803-908c-ef1863bbeb38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Public">
+      <UniqueIdentifier>{b458e94d-5e1d-472d-b0b5-aa1e114a24a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Public">
+      <UniqueIdentifier>{4b2c6d57-18c7-4779-8d1f-5c2cc0db815e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Public\Adapter">
+      <UniqueIdentifier>{97cf62d0-8cfb-434d-86d3-ec1455cc2964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Public\Adapter">
+      <UniqueIdentifier>{c7d59214-ebf9-4ea8-b2e8-a0268e6dd4ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Public\DB">
+      <UniqueIdentifier>{d0bf791f-972d-432c-9f10-56532b2a751c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Public\DB">
+      <UniqueIdentifier>{7a5cdd1a-54ef-444a-b040-6ea936df0061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Public\DB\SQLite">
+      <UniqueIdentifier>{0191960f-0e07-4c68-a3a1-b5868853e4da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Public\DB\SQLite">
+      <UniqueIdentifier>{937099bd-f459-47fd-b13c-c614e8a4e176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Public\If">
+      <UniqueIdentifier>{d9afa58e-b534-48dc-8d4e-047ff1ce52ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Public\If">
+      <UniqueIdentifier>{4619efc0-7bca-41a5-b7ee-0199ccade009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Public\Lib">
+      <UniqueIdentifier>{350b661e-abc8-4cde-8217-7c5000704010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Public\Lib">
+      <UniqueIdentifier>{a05219ae-12e8-47ea-973f-b18d0fddd872}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CctDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CctView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sysarch\arch.h">
+      <Filter>头文件\sysarch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Cct\CctMain.h">
+      <Filter>头文件\Cct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Cct\CctCfg.h">
+      <Filter>头文件\Cct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Cct\DbCfg.h">
+      <Filter>头文件\Cct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Cct\MsgDrvTask.h">
+      <Filter>头文件\Cct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Cct\CctAppAdapter\CctAppAdapter.h">
+      <Filter>头文件\Cct\CctAppAdapter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Cct\CctReader\CctReader.h">
+      <Filter>头文件\Cct\CctReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Cct\CctReader\HisiReader.h">
+      <Filter>头文件\Cct\CctReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Public\Adapter\AppAdapter.h">
+      <Filter>头文件\Public\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Public\DB\SQLite\sqlite3.h">
+      <Filter>头文件\Public\DB\SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Public\DB\DbMgr.h">
+      <Filter>头文件\Public\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Public\If\Comm.h">
+      <Filter>头文件\Public\If</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Public\If\SocketIf.h">
+      <Filter>头文件\Public\If</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Public\Lib\DeBug.h">
+      <Filter>头文件\Public\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Public\Lib\MonitorTask.h">
+      <Filter>头文件\Public\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Public\Lib\MsgQueue.h">
+      <Filter>头文件\Public\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Public\Lib\OnTimer.h">
+      <Filter>头文件\Public\Lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CctDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CctView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sysarch\arch.cpp">
+      <Filter>源文件\sysarch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Cct\CctMain.cpp">
+      <Filter>源文件\Cct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Cct\CctAppAdapter\CctAppAdapter.cpp">
+      <Filter>源文件\Cct\CctAppAdapter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Cct\CctReader\CctReader.cpp">
+      <Filter>源文件\Cct\CctReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Cct\CctReader\HisiReader.cpp">
+      <Filter>源文件\Cct\CctReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Cct\CctCfg.cpp">
+      <Filter>源文件\Cct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Cct\DbCfg.cpp">
+      <Filter>源文件\Cct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Cct\MsgDrvTask.cpp">
+      <Filter>源文件\Cct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Public\Adapter\AppAdapter.cpp">
+      <Filter>源文件\Public\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Public\DB\SQLite\sqlite3.c">
+      <Filter>源文件\Public\DB\SQLite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Public\DB\DbMgr.cpp">
+      <Filter>源文件\Public\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Public\If\Comm.cpp">
+      <Filter>源文件\Public\If</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Public\If\SocketIf.cpp">
+      <Filter>源文件\Public\If</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Public\Lib\DeBug.cpp">
+      <Filter>源文件\Public\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Public\Lib\MonitorTask.cpp">
+      <Filter>源文件\Public\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Public\Lib\MsgQueue.cpp">
+      <Filter>源文件\Public\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Public\Lib\OnTimer.cpp">
+      <Filter>源文件\Public\Lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Cct.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\file_view.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\file_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\class_view.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\class_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\fileview.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\fileview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\classview.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\classview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\explorer.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\explorer_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sort.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sort_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\menuimages.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\menuimages_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\output_wnd.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\output_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties_wnd.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\userimages.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\CctDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Cct.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Cct.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

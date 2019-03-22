@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Ng">
+      <UniqueIdentifier>{701ef904-4cea-486c-9381-dfeeeff82a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\sysarch">
+      <UniqueIdentifier>{4120bf0b-c24a-497b-9a21-ba253b10c8de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sysarch">
+      <UniqueIdentifier>{3373dc07-5f59-4a67-9239-e8d0912665e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Ng">
+      <UniqueIdentifier>{16ad4c21-cd4f-49ce-87d2-77337d09f95b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Public">
+      <UniqueIdentifier>{df554b51-e31c-40c2-b084-a93429f84e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Public">
+      <UniqueIdentifier>{f47c738f-a114-4734-96d8-60a3454680ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Public\Adapter">
+      <UniqueIdentifier>{b4be1aca-a6fd-49e9-8fd2-c2b754983704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Public\DB">
+      <UniqueIdentifier>{41ff209d-ea07-41a1-8474-495f5df5e0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Public\DB\SQLite">
+      <UniqueIdentifier>{d4f228b6-cc7d-451d-95da-6a491392878a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Public\If">
+      <UniqueIdentifier>{f32bff06-5a08-4931-bcc9-e4d9e864b2a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Public\Lib">
+      <UniqueIdentifier>{ccd72adf-787b-434b-89b3-a707ef9aa472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Public\Adapter">
+      <UniqueIdentifier>{2bdcb4a0-ba28-4ac0-b995-03b20f41e771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Public\DB">
+      <UniqueIdentifier>{226ddb8f-7e73-4d77-9970-ca6169a5617c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Public\DB\SQLite">
+      <UniqueIdentifier>{b3334b3f-740e-4df7-975c-5d1a10781ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Public\Lib">
+      <UniqueIdentifier>{e0f624a0-d53d-45bc-8e32-9137b924f336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Public\If">
+      <UniqueIdentifier>{64e2d8f3-d4e7-47b1-96e3-2e3d87e24dc0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NgDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NgView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sysarch\arch.h">
+      <Filter>头文件\sysarch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Ng\NgMain.h">
+      <Filter>头文件\Ng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Public\Adapter\AppAdapter.h">
+      <Filter>头文件\Public\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Public\DB\DbMgr.h">
+      <Filter>头文件\Public\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Public\DB\SQLite\sqlite3.h">
+      <Filter>头文件\Public\DB\SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Public\If\Comm.h">
+      <Filter>头文件\Public\If</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Public\If\SocketIf.h">
+      <Filter>头文件\Public\If</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Public\Lib\DeBug.h">
+      <Filter>头文件\Public\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Public\Lib\MonitorTask.h">
+      <Filter>头文件\Public\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Public\Lib\MsgQueue.h">
+      <Filter>头文件\Public\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\App\Public\Lib\OnTimer.h">
+      <Filter>头文件\Public\Lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ng.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NgDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NgView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sysarch\arch.cpp">
+      <Filter>源文件\sysarch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Ng\NgMain.cpp">
+      <Filter>源文件\Ng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Public\Adapter\AppAdapter.cpp">
+      <Filter>源文件\Public\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Public\DB\DbMgr.cpp">
+      <Filter>源文件\Public\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Public\DB\SQLite\sqlite3.c">
+      <Filter>源文件\Public\DB\SQLite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Public\If\Comm.cpp">
+      <Filter>源文件\Public\If</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Public\If\SocketIf.cpp">
+      <Filter>源文件\Public\If</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Public\Lib\DeBug.cpp">
+      <Filter>源文件\Public\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Public\Lib\MonitorTask.cpp">
+      <Filter>源文件\Public\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Public\Lib\MsgQueue.cpp">
+      <Filter>源文件\Public\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\App\Public\Lib\OnTimer.cpp">
+      <Filter>源文件\Public\Lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Ng.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\file_view.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\file_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\class_view.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\class_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\fileview.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\fileview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\classview.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\classview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\explorer.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\explorer_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sort.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sort_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\menuimages.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\menuimages_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\output_wnd.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\output_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties_wnd.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\userimages.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\NgDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Ng.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Ng.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

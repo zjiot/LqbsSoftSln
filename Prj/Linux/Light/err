@@ -1,0 +1,55 @@
+make -C ../../../LqbsSoft/Prj/Linux/sysarch ;  make -C ../../../LqbsSoft/App/Cct ;  make -C ../../../LqbsSoft/App/DB ;  make -C ../../../LqbsSoft/App/DB/SQLite ;  make -C ../../../LqbsSoft/App/Proto ;  make -C ../../../LqbsSoft/App/Proto/If ;  make -C ../../../LqbsSoft/App/Proto/Protocol ;  make -C ../../../LqbsSoft/Prj/Linux/main ;
+make[1]: Entering directory `/home/suestcxf/Lqbs/LqbsSoft/LqbsSoft/LqbsSoft/Prj/Linux/sysarch'
+g++ -g -c -Os -I../../../App/Cct -I../../../App/DB -I../../../App/DB/SQLite -I../../../App/Proto -I../../../App/Proto/If -I../../App/Proto/Protocol -I../../../Prj/Linux/main -I../../../Prj/Linux/sysarch -DLINUX -fno-builtin-log -o ../obj/arch.o arch.cpp
+ar rv ../lib/libApp.a ../obj/arch.o
+ar: creating ../lib/libApp.a
+a - ../obj/arch.o
+ranlib ../lib/libApp.a
+make[1]: Leaving directory `/home/suestcxf/Lqbs/LqbsSoft/LqbsSoft/LqbsSoft/Prj/Linux/sysarch'
+make[1]: Entering directory `/home/suestcxf/Lqbs/LqbsSoft/LqbsSoft/LqbsSoft/App/Cct'
+g++ -g -c -Os -I../../App/Cct -I../../App/DB -I../../App/DB/SQLite -I../../App/Proto -I../../App/Proto/If -I../../App/Proto/Protocol -I../../Prj/Linux/main -I../../Prj/Linux/sysarch -DLINUX -fno-builtin-log -o ../../Prj/Linux/obj/CctCfg.o CctCfg.cpp
+g++ -g -c -Os -I../../App/Cct -I../../App/DB -I../../App/DB/SQLite -I../../App/Proto -I../../App/Proto/If -I../../App/Proto/Protocol -I../../Prj/Linux/main -I../../Prj/Linux/sysarch -DLINUX -fno-builtin-log -o ../../Prj/Linux/obj/CctMain.o CctMain.cpp
+g++ -g -c -Os -I../../App/Cct -I../../App/DB -I../../App/DB/SQLite -I../../App/Proto -I../../App/Proto/If -I../../App/Proto/Protocol -I../../Prj/Linux/main -I../../Prj/Linux/sysarch -DLINUX -fno-builtin-log -o ../../Prj/Linux/obj/CctReader.o CctReader.cpp
+g++ -g -c -Os -I../../App/Cct -I../../App/DB -I../../App/DB/SQLite -I../../App/Proto -I../../App/Proto/If -I../../App/Proto/Protocol -I../../Prj/Linux/main -I../../Prj/Linux/sysarch -DLINUX -fno-builtin-log -o ../../Prj/Linux/obj/HisiReader.o HisiReader.cpp
+ar rv ../../Prj/Linux/lib/libApp.a ../../Prj/Linux/obj/CctCfg.o ../../Prj/Linux/obj/CctMain.o ../../Prj/Linux/obj/CctReader.o ../../Prj/Linux/obj/HisiReader.o
+a - ../../Prj/Linux/obj/CctCfg.o
+a - ../../Prj/Linux/obj/CctMain.o
+a - ../../Prj/Linux/obj/CctReader.o
+a - ../../Prj/Linux/obj/HisiReader.o
+ranlib ../../Prj/Linux/lib/libApp.a
+make[1]: Leaving directory `/home/suestcxf/Lqbs/LqbsSoft/LqbsSoft/LqbsSoft/App/Cct'
+make[1]: Entering directory `/home/suestcxf/Lqbs/LqbsSoft/LqbsSoft/LqbsSoft/App/DB'
+g++ -g -c -Os -I../../App/Cct -I../../App/DB -I../../App/DB/SQLite -I../../App/Proto -I../../App/Proto/If -I../../App/Proto/Protocol -I../../Prj/Linux/main -I../../Prj/Linux/sysarch  -DLINUX -fno-builtin-log -o ../../Prj/Linux/obj/DbCfg.o DbCfg.cpp
+g++ -g -c -Os -I../../App/Cct -I../../App/DB -I../../App/DB/SQLite -I../../App/Proto -I../../App/Proto/If -I../../App/Proto/Protocol -I../../Prj/Linux/main -I../../Prj/Linux/sysarch  -DLINUX -fno-builtin-log -o ../../Prj/Linux/obj/DbMgr.o DbMgr.cpp
+ar rv ../../Prj/Linux/lib/libApp.a ../../Prj/Linux/obj/DbCfg.o ../../Prj/Linux/obj/DbMgr.o
+a - ../../Prj/Linux/obj/DbCfg.o
+a - ../../Prj/Linux/obj/DbMgr.o
+ranlib ../../Prj/Linux/lib/libApp.a
+make[1]: Leaving directory `/home/suestcxf/Lqbs/LqbsSoft/LqbsSoft/LqbsSoft/App/DB'
+make[1]: Entering directory `/home/suestcxf/Lqbs/LqbsSoft/LqbsSoft/LqbsSoft/App/DB/SQLite'
+gcc -g -c -Os -I../../../App/Cct -I../../../App/DB -I../../../App/DB/SQLite -I../../../App/Proto -I../../../App/Proto/If -I../../../App/Proto/Protocol -I../../../Prj/Linux/main -I../../../Prj/Linux/sysarch -DLINUX -fno-builtin-log -o ../../../Prj/Linux/obj/sqlite3.o sqlite3.c
+ar rv ../../../Prj/Linux/lib/libApp.a ../../../Prj/Linux/obj/sqlite3.o
+a - ../../../Prj/Linux/obj/sqlite3.o
+ranlib ../../../Prj/Linux/lib/libApp.a
+make[1]: Leaving directory `/home/suestcxf/Lqbs/LqbsSoft/LqbsSoft/LqbsSoft/App/DB/SQLite'
+make[1]: Entering directory `/home/suestcxf/Lqbs/LqbsSoft/LqbsSoft/LqbsSoft/App/Proto'
+make[1]: “../../Prj/Linux/lib/libApp.a”是最新的。
+make[1]: Leaving directory `/home/suestcxf/Lqbs/LqbsSoft/LqbsSoft/LqbsSoft/App/Proto'
+make[1]: Entering directory `/home/suestcxf/Lqbs/LqbsSoft/LqbsSoft/LqbsSoft/App/Proto/If'
+g++ -g -c -Os -I../../../App/Cct -I../../../App/DB -I../../../App/DB/SQLite -I../../../App/Proto -I../../../App/Proto/If -I../../../App/Proto/Protocol -I../../../Prj/Linux/main -I../../../Prj/Linux/sysarch -DLINUX -fno-builtin-log -o ../../../Prj/Linux/obj/Comm.o Comm.cpp
+g++ -g -c -Os -I../../../App/Cct -I../../../App/DB -I../../../App/DB/SQLite -I../../../App/Proto -I../../../App/Proto/If -I../../../App/Proto/Protocol -I../../../Prj/Linux/main -I../../../Prj/Linux/sysarch -DLINUX -fno-builtin-log -o ../../../Prj/Linux/obj/SocketIf.o SocketIf.cpp
+ar rv ../../../Prj/Linux/lib/libApp.a ../../../Prj/Linux/obj/Comm.o ../../../Prj/Linux/obj/SocketIf.o
+a - ../../../Prj/Linux/obj/Comm.o
+a - ../../../Prj/Linux/obj/SocketIf.o
+ranlib ../../../Prj/Linux/lib/libApp.a
+make[1]: Leaving directory `/home/suestcxf/Lqbs/LqbsSoft/LqbsSoft/LqbsSoft/App/Proto/If'
+make[1]: Entering directory `/home/suestcxf/Lqbs/LqbsSoft/LqbsSoft/LqbsSoft/App/Proto/Protocol'
+g++ -g -c -Os -I../../../App/Cct -I../../../App/DB -I../../../App/DB/SQLite -I../../../App/Proto -I../../../App/Proto/If -I../../../App/Proto/Protocol -I../../../Prj/Linux/main  -I../../../Prj/Linux/sysarch -DLINUX -fno-builtin-log -o ../../../Prj/Linux/obj/Proto.o Proto.cpp
+ar rv ../../../Prj/Linux/lib/libApp.a ../../../Prj/Linux/obj/Proto.o
+a - ../../../Prj/Linux/obj/Proto.o
+ranlib ../../../Prj/Linux/lib/libApp.a
+make[1]: Leaving directory `/home/suestcxf/Lqbs/LqbsSoft/LqbsSoft/LqbsSoft/App/Proto/Protocol'
+make[1]: Entering directory `/home/suestcxf/Lqbs/LqbsSoft/LqbsSoft/LqbsSoft/Prj/Linux/main'
+g++ -g -c -Os -I../../../App/Cct -I../../../App/DB -I../../../App/DB/SQLite -I../../../App/Proto -I../../../App/Proto/If -I../../../App/Proto/Protocol -I../../../Prj/Linux/main -I../../../Prj/Linux/sysarch -DLINUX -fno-builtin-log -o ../obj/Cct.o Cct.cpp
+g++ -g -o ../bin/LQBS_CCT_APP ../obj/Cct.o -L../lib -lApp -lnsl -lpthread -ldl -lcrypt
+make[1]: Leaving directory `/home/suestcxf/Lqbs/LqbsSoft/LqbsSoft/LqbsSoft/Prj/Linux/main'

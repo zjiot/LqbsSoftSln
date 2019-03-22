@@ -1,0 +1,15 @@
+make clean
+rm -f LQBS_CCT_APP
+
+echo "make 2>&1 |tee err"
+make 2>&1 |tee err
+
+#echo "strip LQBS_CCT_APP"
+#arm-linux-strip bin/lqbs
+#strip bin/LQBS_CCT_APP
+
+echo "cp -f bin/LQBS_CCT_APP ./lqbs/"
+cp -f bin/LQBS_CCT_APP ./
+chmod 777 LQBS_CCT_APP
+
+

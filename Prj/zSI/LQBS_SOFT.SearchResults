@@ -1,0 +1,16 @@
+---- SOCKET_ERR_SUCCESS Matches (15 in 3 files) ----
+Arch.h (prj\linux\sysarch):#define SOCKET_ERR_SUCCESS		0
+Arch.h (prj\win\sysarch):#define SOCKET_ERR_SUCCESS		0
+SocketIf.cpp (app\public\if):    signed int dwRet = SOCKET_ERR_SUCCESS;
+SocketIf.cpp (app\public\if):        if(SOCKET_ERR_SUCCESS != setsockopt(m_cSocket, SOL_SOCKET, SO_REUSEADDR, (const char*)&dwReUse, sizeof(signed int)))
+SocketIf.cpp (app\public\if):    signed int dwRet = SOCKET_ERR_SUCCESS;
+SocketIf.cpp (app\public\if):    signed int dwRet = SOCKET_ERR_SUCCESS;
+SocketIf.cpp (app\public\if):		signed int dwRet = SOCKET_ERR_SUCCESS;
+SocketIf.cpp (app\public\if):    	if(dwRet != SOCKET_ERR_SUCCESS) TRACE("socket shutdown.\n");
+SocketIf.cpp (app\public\if):   		if(dwRet != SOCKET_ERR_SUCCESS) TRACE("socket close.\n");
+SocketIf.cpp (app\public\if):		signed int dwRet = SOCKET_ERR_SUCCESS;
+SocketIf.cpp (app\public\if):    	if(dwRet != SOCKET_ERR_SUCCESS) TRACE("socket shutdown");
+SocketIf.cpp (app\public\if):   		if(dwRet != SOCKET_ERR_SUCCESS) TRACE("socket close");
+SocketIf.cpp (app\public\if):		signed int dwRet = SOCKET_ERR_SUCCESS;
+SocketIf.cpp (app\public\if):    	if(dwRet != SOCKET_ERR_SUCCESS) TRACE("socket shutdown");
+SocketIf.cpp (app\public\if):   		if(dwRet != SOCKET_ERR_SUCCESS) TRACE("socket close");
